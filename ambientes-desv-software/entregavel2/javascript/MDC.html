@@ -1,0 +1,30 @@
+<script>
+    document.write("<a href='../index.html'><button>Voltar</button></a><br>")
+    //4 - Máximo divisor comum: O máximo divisor comum (mdc) de dois inteiros a, b é o maior número inteiro que divide a e b.
+    var mdcA = Number(prompt("MDC: digite o primeiro valor."));
+    var mdcB = Number(prompt("MDC: digite o segundo valor."));
+    var mdc = 1;
+    var bigger;
+    
+    document.write("MDC de A e B.");
+    
+    bigger = mdcA;
+        if (mdcA > mdcB){
+                bigger = mdcA;
+        } if (mdcB > mdcA) {
+                bigger = mdcB;
+        }
+    
+        for (var g = 2; g <= bigger; ++g){
+            while((mdcA % g==0) && (mdcB % g == 0)){
+                    mdcA = mdcA / g;
+                    mdcB = mdcB / g;
+                    mdc = mdc * g;
+            }
+        }
+    
+    document.write("MDC é: " + mdc);
+    
+    
+    
+    </script>

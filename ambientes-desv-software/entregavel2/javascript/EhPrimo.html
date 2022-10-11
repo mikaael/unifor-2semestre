@@ -1,0 +1,19 @@
+<script>
+    //1 - Número é primo: Um número inteiro positivo n é primo se for divisível apenas por 1 e por n.
+    document.write("<a href='../index.html'><button>Voltar</button></a><br>")
+    var numero = Number(prompt("Teste se o valor é primo"));
+    var tester = 0;
+            
+    for(var i = 1; i <= numero; i++) {
+        if(numero % i == 0) {
+            tester++;
+        }
+    } if(tester == 2) {
+        document.write("É primo!");
+                
+    } else {
+        document.write("Não é primo!");
+    }
+    
+    
+    </script>
