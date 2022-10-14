@@ -1,6 +1,18 @@
+<meta charset = "UTF-8">
+
 <script>
     document.write("<a href='../index.html'><button>Voltar</button></a><br>")
     //5 - ordenação: Ordenar um array usando o método Quicksort
+
+    function adiciona(quantidade) {
+    var array = [];
+    for(var ordem = 1; ordem <= quantidade; ordem++) {
+        var numero = parseInt(prompt("Adicione o " + ordem + "º número"));
+        array.push(parseFloat(numero));
+    }
+    return array;
+}
+    var array = adiciona(parseInt(prompt("Informe quantos números deseja ordenar!")));
     
     function quicksort(array){
       if (array.length <= 1){
@@ -16,9 +28,11 @@
       } return quicksort(esquerda).concat(pivo, quicksort(direita));
     
     };
-    var unsorted = [1, 700, 84, 3, 9, 45, 12];
-    document.write("Unsorted: " + unsorted + "<br>");
-    var sorted = quicksort(unsorted);
-    document.write('Sorted array: ', sorted);
     
-    </script>
+    var unsorted = array;
+    document.write("Desordenado: " + unsorted + "<br>");
+    var sorted = quicksort(unsorted);
+    document.write('Ordenado: ', sorted);
+
+
+</script>
