@@ -12,3 +12,5 @@ Adicione ao body do request
 }
 Aperte SEND e terá uma visualização do Output
 
+![Capturar](https://user-images.githubusercontent.com/104598876/199850386-93e24076-fd71-4ba9-acdc-5f7e660bdb8c.PNG)
+
