@@ -1,0 +1,10 @@
+    var n = Number(prompt("Quantos valores serão contados?"));
+    var contagem = 0;
+    for( i=1; i<=n; i++) {
+        var num = Number(prompt(i + "º Valor: "));
+        var parte_fracao = parseInt(Math.round((num - parseInt(num)) * 100));
+        if(parte_fracao == 0){
+            contagem++;
+        }        
+    }
+    document.write("Contagem dos números inteiros: " + contagem);
