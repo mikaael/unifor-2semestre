@@ -1,6 +1,12 @@
-<h1>Teste</h1>
+<h1>Servidor</h1>
 
-Crie uma requisição GET com a URL do LocalHost: <a href="localhost:3001">localhost:3001</a>
+Baixe os arquivos do diretório e rode os seguintes comandos no terminal para por seu servidor no ar:
+- npm install
+- node Entregavel3.js
+
+<h1>Postman</h1>
+
+Crie uma requisição GET no Postman com a URL do LocalHost: <a href="localhost:3001">localhost:3001</a>
 
 Aperte SEND e terá uma visualização do Output
 
@@ -12,5 +18,12 @@ Adicione ao body do request
 }
 Aperte SEND e terá uma visualização do Output
 
+Para trocar a operação, mude o endpoint para: soma, subtracao, divisao ou multiplicacao
+
 ![Capturar](https://user-images.githubusercontent.com/104598876/199850386-93e24076-fd71-4ba9-acdc-5f7e660bdb8c.PNG)
 
+![image](https://user-images.githubusercontent.com/104598876/205172171-f20251c8-7a08-4f8c-8f87-ba4c387aa18d.png)
+
+![image](https://user-images.githubusercontent.com/104598876/205172327-277aabe2-2182-4521-815a-825d0adf3094.png)
+
+![image](https://user-images.githubusercontent.com/104598876/205172505-0c4b5b5f-d272-45d2-a7ef-d6b4a52686aa.png)
