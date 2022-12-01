@@ -20,7 +20,7 @@ Aperte SEND e terá uma visualização do Output
 
 Para trocar a operação, mude o endpoint para: soma, subtracao, divisao ou multiplicacao
 
-![Capturar](https://user-images.githubusercontent.com/104598876/199850386-93e24076-fd71-4ba9-acdc-5f7e660bdb8c.PNG)
+![image](https://user-images.githubusercontent.com/104598876/205175329-1bada507-bc42-493a-acdb-317c7de6ab79.png)
 
 ![image](https://user-images.githubusercontent.com/104598876/205172171-f20251c8-7a08-4f8c-8f87-ba4c387aa18d.png)
 
